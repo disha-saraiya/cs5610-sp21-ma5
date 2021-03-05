@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  display: grid; 
+  grid-template-areas: 
+  "cell cell"
+  "cell cell";
+  grid-template-columns: 100px 100px; 
+  grid-template-rows: 100px 100px;
+}
+
+.cell{
+  grid-area: cell; 
+}
